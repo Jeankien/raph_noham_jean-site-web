@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin:0;
     padding:0;
@@ -150,3 +151,17 @@ article img {
         margin: 0%;
     }
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: red;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+>>>>>>> 07e57ff54eb19bf4b4a4bdf182d77fb853bd4771
