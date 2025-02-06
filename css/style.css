@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
 <<<<<<< HEAD
     margin:0;
@@ -72,8 +71,7 @@ footer{
     height:2em;
     text-align: center;
     position: fixed bottom;
-} 
-=======
+*} 
     margin: 0;
     padding: 0;
 }
@@ -153,8 +151,6 @@ article img {
         margin: 0%;
     }
 }
->>>>>>> page1.html
-=======
 * {
     margin: 0;
     padding: 0;
@@ -167,4 +163,3 @@ body{
     background-attachment: fixed;
 }
 
->>>>>>> contact.html
