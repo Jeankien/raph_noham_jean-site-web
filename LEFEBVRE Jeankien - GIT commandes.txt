@@ -1,0 +1,64 @@
+﻿Cd Documents
+Mkdir git
+Cd git
+Git init
+Git —version
+Git clone “https://github.com/Jeankien/raph_noham_jean-site-web.git”
+Cd raph_noham_jean-site-web
+Git checkout -b html
+Git config user.email “jeankien.lefebvre@gmail.com”
+Git config user.name “Jeankien”
+Git push -u origin html
+Git branch index.html
+Git push -u origin index.html
+Git pull origin contact.html (vide)
+Git pull origin page1.html (vide)
+(Noham a pris charge d’ajouter les fichiers sur la VM car nos WinSCP ne marchait pas)
+Git pull origin index.html (rempli)
+Git pull origin contact.html (rempli)
+Git pull origin page1.html (rempli)
+Git checkout main
+Git branch css
+Git branch html
+Git branch vfinale
+Git checkout html
+Git merge index.html
+Git merge page1.html
+Git add css/style.css (car il est en double ce qui fait un problème de fusionnage)
+Git status
+Git commit -m “Merge entre index.html et page1.html”
+Git push -u origin html
+Git status
+Git merge contact.html
+Git add css/style.css (encore une fois car il est en double)
+Git status
+Git commit -m “Merge avec contact.html”
+Git push -u origin html
+Git status
+Rm -d -R css
+Git add css
+Git commit -m “Suppression du dossier css de la branche html”
+Git pull origin css (pull une fois que les merges et l’ordonnement a été fait)
+Git checkout css
+Nano css/style.css
+Git add css
+Git commit -m “Mise en forme du css pour les 3 pages web”
+Git push -u origin css
+Git pull origin vfinal_css (anciennement vfinale)
+Git checkout vfinal_css 
+Git merge css
+Git push -u origin vfinal_css
+Git pull origin vfinale1
+Git checkout vfinale1
+Ls
+Ls html
+Nano index.html (nano des trois html pour vérifier les sites)
+Nano contact.html
+Nano page1.html
+(erreurs dans index.html et page1.html qui ont été modifiés)
+Git add index.html
+Git add page1.html
+Git commit -m “Mise en forme des pages webs”
+Git push -u origin vfinal1
+Git pull text
+Git checkout text
