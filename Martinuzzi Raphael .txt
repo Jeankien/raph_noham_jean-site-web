@@ -1,0 +1,52 @@
+Cd Documents 
+Mkdir git 
+Cd git 
+Git init 
+Git —version 
+Git clone “https://github.com/Jeankien/raph_noham_jean-site-web.git” 
+Cd raph_noham_jean-site-web 
+Git checkout -b html 
+Git config user.email raphael.martinuzzi@efrei.net
+ Git config user.name “Rmartinuzzi”
+ Git pull origin html 
+Git branch index.html 
+Git pull index.html 
+Git pull origin contact.html 
+Git push -u origin page1.html 
+(Noham a pris charge d’ajouter les fichiers sur la VM car nos WinSCP ne marchait pas)
+Git pull origin page1.html
+Git pull origin css
+Git status
+Git checkout css 
+Git merge index.html
+Git merge page1.html
+Git merge contact.html
+Git checkout html
+Ls
+On observe plus que html
+
+Git add css/style.css (car il est en double ce qui fait un problème de fusionnage)
+Git status
+Git commit -m “Merge entre index.html et page1.html”
+Git push -u origin html
+Git status
+Git merge contact.html
+Git add css/style.css (encore une fois car il est en double)
+Git status
+Git commit -m “Merge avec contact.html”
+Git push -u origin html
+Git status
+Git pull origin vfinal_css (anciennement vfinale)
+Git checkout vfinal_css 
+Git merge css
+Git push -u origin vfinal_css
+git checkout main
+git branch text 
+Git config user.email raphael.martinuzzi@efrei.net
+ Git config user.name “Rmartinuzzi”
+Git push -u origin text 
+
+
+
+
+
