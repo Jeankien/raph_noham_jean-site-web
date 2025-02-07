@@ -1,0 +1,127 @@
+Commande GIT
+
+Sudo apt install git
+Git –version
+Cd Documents/
+Mkdir git
+Cd git
+Git init
+Git clone « https://github.com/Jeakien/html.git »
+Cd raph_noham_jean-site-web/
+Git congif user.email « noham2412@gmail »
+Git config user.name « noham406 »
+Git pull origin html
+Git checkout html
+Git pull origin index.html
+Git checkout inex.html
+Git push -u origin contact.html
+Git pull origin page1.html
+
+Mkdir html 
+Mkdir css
+Mkdir image
+Utilisation de WinSCP pour mettre nos VS code sur la VM
+Git add html 
+Git commit -m « .. »
+Git push -u origin contact.html
+Git add css
+Git commit -m « .. »
+Git push -u origin contact.html
+Git add image
+Git commit -m « .. »
+Git push -u origin contact.html
+
+Git checkout index.html
+Mkdir html 
+Mkdir css
+Mkdir image
+Git add html
+Git commit -m « .. »
+Git push -u origin index.html
+Git add css
+Git commit -m « .. »
+Git push -u origin index.html
+Git add image
+Git commit -m « .. »
+Git push -u origin index.html
+
+Git checkout page1.html
+Git add html
+Git commit -m « .. »
+Git push -u origin page1.html
+Git add css
+Git commit -m « .. »
+Git push -u origin page1.html
+Git add image
+Git commit -m « .. »
+Git push -u origin page1.html
+
+Git pull origin css
+Git checkout css
+Git merge index.html
+Git merge page1.html
+Git add css/style.css
+Git commit -m «.. »
+Git push -u origin css
+Git merge page1.html
+Ls
+Git merge contact.html
+Git add css/style.css
+Git commit -m «.. »
+Git push -u origin css
+Git merge contact.html
+Ls 
+
+Rm -d -R html
+Rm -d -R image
+Rm -d -R index.html
+Ls
+Cd css 
+Nano css
+Cd ..
+
+Git status
+Git add css
+Git commit -m "le css des 3 pages web"
+git push -u origin css
+Git add html
+Git commit -m "supprimé"
+git push -u origin html
+Git add image
+Git commit -m "supprimé"
+git push -u origin image
+Git add index.html
+Git commit -m "supprimé"
+git push -u origin index.html
+git status
+git pull origin css
+
+git pull origin html
+git checkout html
+git pull
+
+git pull origin vfinale
+git checkout vfinale
+git branch -m vfinal_css
+
+git checkout main
+git branch vfinale1
+git merge html
+
+git pull origin text
+git checkout text
+utilisation de winscp pour mettre nos 3 fichers txt dans la VM. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
